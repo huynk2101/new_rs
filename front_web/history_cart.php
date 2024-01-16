@@ -70,7 +70,7 @@
                                     echo "Đang chờ xử lý";
                                 } elseif ($orders["status"] == 1) {
                                     echo "Đang giao";?>
-                                    <a style="color: blue;" href="checked.php?id=<?php echo $orders['id']?>" class="border">Đã nhận</a>
+                                    <a  href="checked.php?id=<?php echo $orders['id']?>" class="border"><button class="btn btn-success">Đã nhận</button></a>
                                 <?php }?>
                             </td>
                         </tr>

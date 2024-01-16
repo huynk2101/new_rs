@@ -18,7 +18,7 @@
     </style>
 </head>
 
-<body>
+<body class="container mt-5" style="background-color: rgba(0, 5, 0, 0.2);">
 <?php
 require_once "../../db/connect.php";
 $order_id = $_GET['id'];
