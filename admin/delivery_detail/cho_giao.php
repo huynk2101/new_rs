@@ -40,6 +40,9 @@ $total_page = ceil($total_record / $row_per_page);
             <td>
                 <a href="process_delivery.php?id=<?php echo $orders['id'] ?>" ><button class="btn btn-outline-success">Giao hàng</button></a>
             </td>
+            <td>
+                <a target="_blank" href="./delivery_detail/order_detail.php?id=<?php echo $orders['id'] ?>" ><button class="btn btn-outline-success">Xem chi tiết</button></a>
+            </td>
         </tr>
         <?php
     }
